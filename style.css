@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    background: #D0FFA7;
+}
+
+img {
+    width: 150px;
+}
+
+p {
+    font-family: 'Fanwood Text', serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.hero {
+  background-image: url("https://img2.finalfantasyxiv.com/accimg2/18/89/18897fb9e0f75dae54437a32dff8e5c738c401cb.jpg");
+  background-size: cover;
+  height: 150px;
+  padding: 90px;  
+}
+
+.hero-intro {
+  background: #DEA7FF;
+  padding: 4px 8px;
+  border-radius: 8px;
+  opacity: 90%;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px magenta;
+  
+}
+
+.hero-intro:hover {
+  text-shadow: 1px 1px 5px blue;
+}
+
+.hero-text {
+  color: #F2FFE7;
+  padding: 6px 8px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.local-act {
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  
+}
+
+.activities {
+  padding: 30px;
+  background: #D0FFA7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(#D0FFA7, #3BCDFF);
+  
+}
+
+.act-img {
+  border-radius: 45px;
+}
+
+.act-img:hover {
+  opacity: 80%
+}
+
+.tour-intro {
+  margin-top: 0;
+  color: #3BCDFF;
+  text-shadow: 5px 5px 5px #D0FFA7;
+}
+
+.guide-section {
+  padding: 20px;
+  background: linear-gradient(#fff, #D0FFA7);
+  height: 240px;
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E4C1FF;
+    border: 8px solid #3BCDFF;
+    border-radius: 50px;
+    text-shadow: 1px 1px 5px white;
+}
+
+.card-img {
+  height: 200px;
+  width: 200px;
+  background-position: right 50% bottom 85%;
+  border-radius: 30px;
+  background-image: url("https://img2.finalfantasyxiv.com/f/b06f1d74ced11122445e0af01e2c09b5_284358f8eb4efc9095914e46798c6ab3fl0_640x873.jpg?1654463021")
+ 
+}
+
+.name-plate {
+  text-shadow: 1px 1px 25px white;
+}
+
+.card:hover {
+  background-color: #3BCDFF;
+  border: 8px solid #D0FFA7;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  
+}
